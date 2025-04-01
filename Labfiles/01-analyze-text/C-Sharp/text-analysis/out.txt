@@ -1,0 +1,515 @@
+
+-------------
+review1.txt
+
+Good Hotel and staff
+The Royal Hotel, London, UK
+3/2/2018
+Clean rooms, good service, great location near Buckingham Palace and Westminster Abbey, and so on. We thoroughly enjoyed our stay. The courtyard is very peaceful and we went to a restaurant which is part of the same group and is Indian ( West coast so plenty of fish) with a Michelin Star. We had the taster menu which was fabulous. The rooms were very well appointed with a kitchen, lounge, bedroom and enormous bathroom. Thoroughly recommended.
+
+Language: English
+
+Sentiment: Positive
+
+Key Phrases:
+	The Royal Hotel
+	Good Hotel
+	good service
+	great location
+	Buckingham Palace
+	Westminster Abbey
+	same group
+	West coast
+	Michelin Star
+	taster menu
+	enormous bathroom
+	Clean rooms
+	staff
+	London
+	UK
+	stay
+	courtyard
+	restaurant
+	part
+	plenty
+	fish
+	kitchen
+	lounge
+	bedroom
+
+Entities:
+	Hotel (Location)
+	staff (PersonType)
+	Royal Hotel, London, UK (Address)
+	3/2/2018 (DateTime)
+	Buckingham Palace (Location)
+	Westminster Abbey (Location)
+	courtyard (Location)
+	restaurant (Location)
+	Indian (PersonType)
+	West coast (Location)
+	fish (Product)
+	taster (Product)
+	rooms (Location)
+	kitchen (Location)
+	lounge (Location)
+	bedroom (Location)
+	bathroom (Location)
+
+-------------
+review2.txt
+
+Tired hotel with poor service
+The Royal Hotel, London, United Kingdom
+5/6/2018
+This is a old hotel (has been around since 1950's) and the room furnishings are average - becoming a bit old now and require changing. The internet didn't work and had to come to one of their office rooms to check in for my flight home. The website says it's close to the British Museum, but it's too far to walk.
+
+Language: English
+
+Sentiment: Negative
+
+Key Phrases:
+	The Royal Hotel
+	Tired hotel
+	old hotel
+	poor service
+	United Kingdom
+	room furnishings
+	office rooms
+	flight home
+	British Museum
+	London
+	changing
+	internet
+	website
+	1950
+
+Entities:
+	hotel (Location)
+	The Royal Hotel (Organization)
+	London (Location)
+	United Kingdom (Location)
+	5/6/2018 (DateTime)
+	hotel (Location)
+	since 1950's (DateTime)
+	furnishings (Product)
+	now (DateTime)
+	internet (Skill)
+	one (Quantity)
+	office rooms (Location)
+	flight (Event)
+	home (Location)
+	British Museum (Location)
+
+-------------
+review3.txt
+
+Good location and helpful staff, but on a busy road.
+The Lombard Hotel, San Francisco, USA
+8/16/2018
+We stayed here in August after reading reviews. We were very pleased with location, just behind Chestnut Street, a cosmopolitan and trendy area with plenty of restaurants to choose from. The
+Marina district was lovely to wander through, very interesting houses. Make sure to walk to the San Francisco Museum of Fine Arts and the Marina to get a good view of Golden Gate bridge and the city. On a bus route and easy to get into centre. Rooms were clean with plenty of room and staff were friendly and helpful. The only down side was the noise from Lombard Street so ask to have a room furthest away from traffic noise.
+
+Language: English
+
+Sentiment: Mixed
+
+Key Phrases:
+	Golden Gate bridge
+	The Lombard Hotel
+	The Marina district
+	San Francisco Museum
+	Lombard Street
+	busy road
+	Chestnut Street
+	trendy area
+	interesting houses
+	Fine Arts
+	good view
+	bus route
+	down side
+	Good location
+	helpful staff
+	traffic noise
+	USA
+	We
+	August
+	reviews
+	cosmopolitan
+	plenty
+	restaurants
+	city
+	centre
+	Rooms
+
+Entities:
+	staff (PersonType)
+	Hotel (Location)
+	San Francisco (Location)
+	USA (Location)
+	8/16/2018 (DateTime)
+	August (DateTime)
+	Chestnut Street (Address)
+	restaurants (Location)
+	Marina district (Location)
+	houses (Location)
+	San Francisco Museum of Fine Arts (Location)
+	Marina (Location)
+	Golden Gate bridge (Location)
+	city (Location)
+	centre (Location)
+	Rooms (Location)
+	staff (PersonType)
+	Lombard Street (Address)
+	room (Location)
+
+-------------
+review4.txt
+
+Very noisy and rooms are tiny
+The Lombard Hotel, San Francisco, USA
+9/5/2018
+Hotel is located on Lombard street which is a very busy SIX lane street directly off the Golden Gate Bridge. Traffic from early morning until late at night especially on weekends. Noise would not be so bad if rooms were better insulated but they are not. Had to put cotton balls in my ears to be able to sleep--was too tired to enjoy the city the next day. Rooms are TINY. I picked the room because it had two queen size beds--but the room barely had space to fit them. With family of four in the room it was tight. With all that said, rooms are clean and they've made an effort to update them. The hotel is in Marina district with lots of good places to eat, within walking distance to Presidio. May be good hotel for young stay-up-late adults on a budget
+
+
+Language: English
+
+Sentiment: Mixed
+
+Key Phrases:
+	two queen size beds
+	busy SIX lane street
+	Golden Gate Bridge
+	The Lombard Hotel
+	Lombard street
+	San Francisco
+	early morning
+	cotton balls
+	Marina district
+	good places
+	walking distance
+	late adults
+	good hotel
+	rooms
+	USA
+	Traffic
+	night
+	weekends
+	Noise
+	ears
+	city
+	TINY
+	space
+	family
+	effort
+	lots
+	Presidio
+	young
+	budget
+
+Entities:
+	rooms (Location)
+	Hotel (Location)
+	San Francisco (Location)
+	USA (Location)
+	9/5/2018 (DateTime)
+	Hotel (Location)
+	Lombard street (Address)
+	SIX (Quantity)
+	Golden Gate Bridge (Location)
+	early morning until late at night (DateTime)
+	weekends (DateTime)
+	rooms (Location)
+	cotton balls (Product)
+	city (Location)
+	the next day (DateTime)
+	Rooms (Location)
+	room (Location)
+	two (Quantity)
+	beds (Product)
+	room (Location)
+	four (Quantity)
+	room (Location)
+	rooms (Location)
+	hotel (Location)
+	Marina district (Location)
+	Presidio (Location)
+	hotel (Location)
+	young (PersonType)
+	adults (PersonType)
+
+-------------
+review5.txt
+
+Un h├┤tel agr├⌐able
+L'Hotel Buckingham, Londres, UK
+JΓÇÖadore cet h├┤tel. Le personnel est tr├¿s amical et les chambres sont confortables.
+
+Language: French
+
+Sentiment: Positive
+
+Key Phrases:
+	h├┤tel agr├⌐able
+	L'Hotel Buckingham
+	Londres
+	UK
+	personnel
+	chambres
+
+Entities:
+	h├┤tel (Location)
+	Buckingham (Organization)
+	Londres (Location)
+	UK (Location)
+	h├┤tel (Location)
+	personnel (PersonType)
+	chambres (Location)
+
+-------------
+stonoga.txt
+
+Dobry wiecz├│r. Co┼¢ si─Ö... co┼¢ si─Ö popsu┼éo i nie by┼éo mnie s┼éycha─ç, to powt├│rz─Ö jeszcze raz
+Wynik wyborczy KWW Stonogi to jest jaka┼¢ pora┼╝ka, ja my┼¢l─Ö ┼╝e to polskie, kurwa g┼éupie spo┼éecze┼ästwo, te kurwa banda imbecyli kt├│ra g┼éosowa┼éa na tych kurw├│w karakan├│w z PiSu to jest jakie┼¢ kurwa nieporozumienie
+Je┼¢li tyle dla was znaczy... je┼¢li tyle dla was znaczy, ludzie takie zaanga┼╝owanie spo┼éeczne, jak moje gdzie postawi┼éem moj─à rodzin─Ö, moje ┼╝ycie prywatne, biznes, wszystko inne i dla was tylko znaczy┼éo to pierdolone 70 czy 80 tysi─Öcy g┼éos├│w, to was powinno si─Ö jeba─ç kurwa, tak si─Ö powinno was jeba─ç, jak tylko was mo┼╝e jeba─ç PiS
+Platforma was tak nie wyrucha┼éa, jak wyrucha was PiS, kurwa. A┼╝ wasz kukle kurwa b─Öd─à sw─Ödzia┼éy z b├│lu
+To jest dramat kurwa
+To jest dramat, ┼╝e w tym antyludzkim pa┼ästwie, w tym pa┼ästwie w kt├│rym media kurwa nie by┼éy w stanie powiedzie─ç, ┼╝e Zbigniewa Stonog─Ö zbezczeszczono, ┼╝e ten cz┼éowiek ma 118 wyrok├│w uniewinniaj─àcych, ┼╝e te s─àdowe KURWY! powtarzam s─àdowe KURWY! s─àdowe KURWY tego cz┼éowieka oskar┼╝a┼éy bezpodstawnie i po latach uniewinnia┼éy, ┼╝e to nie jest czym┼¢ wartym tego, by tego cz┼éowieka wprowadzi─ç do parlamentu
+
+B─Ödzie was PiS rucha┼é w dup─Ö, b─Ödzie was PiS kurwa dyma┼é tak, jak was Platforma nie dyma┼éa
+Ta kurwa, ten ma┼éy karakan, jebany Kaczy┼äski ┼¢mie─ç, zniszczy was
+Sumli┼äskie, Kanie, Rachonie, telewizje republiki b─Öd─à wam kurwa odbiera┼éy smak ┼╝ycia wy kurwa idioci
+Narodowi, polscy idioci. Ja mam to w pi┼║dzie kurwa, bo mnie sta─ç na wszystko
+B─Öd─Ö ┼╝y┼é kurwa tak!
+Wypierdol─Ö jeszcze dzisiaj, ju┼╝ bilet kupiony z Polski i b─Öd─Ö si─Ö z was kurwa polskie frajery ┼¢mia┼é, ┼╝e┼¢cie takie g┼éupie s─à, tacy kurwa debile, kt├│rzy te kurewstwo PiSowskie wybrali
+Nie na Korwina, nie na Stonog─Ö, tylko na jakie┼¢ kurwy Petru, ┼╗yd├│w w dup─Ö jebanych kurwa, na Kukiz├│w popierdole┼äc├│w g┼éosowali
+To w┼éa┼¢nie jest ta kurwa Polska
+Przez tak─à kurw─Ö Polsk─Ö, przez was kurwa chuje nic si─Ö w tym kraju nie zmieni, bo jeste┼¢cie chuj warci i trzeba was jeba─ç, rucha─ç i na was zarabia─ç, bo jeste┼¢cie band─à narodowych kurw├│w, nieudacznik├│w
+Rozumiecie to?
+A wam kochani, kt├│rzy┼¢cie g┼éosowali na mnie, kt├│rzy┼¢cie wspomagali mnie, dzi─Ökuj─Ö
+Bo to garstka Polak├│w, garstka Polak├│w, dzisiaj to jest 70 tysi─Öcy os├│b, mo┼╝e 80
+(Wy┼é─àcz ten telefon, bo ci go wy┼é─àcz─Ö na amen)
+Tak, tak, tylko to si─Ö kurwa w tej kurwie Polsce nadaje. Powiedzie─ç wam w ryj wreszcie, wy g┼éupie chuje, ┼╝e jeste┼¢cie prymitywami, ┼╝e kurwa wasze pierdolone karty kredytowe to jest wasz majestat, wasza godno┼¢─ç
+Robota kurwa w korporacji i karta z debetem, to wy kurwa Polacy, chuj z wami
+Nie warto by┼éo kurwa, nie warto by┼éo zrobi─ç nic... co by si─Ö... a szkoda kurwa gada─ç, szkoda strz─Öpi─ç ryja naprawd─Ö
+Niech was... S┼éuchajcie
+Ci, kt├│rzy┼¢cie g┼éupie kurwy g┼éosowa┼éy na PiS niech was szlag trafi, chuj warci jeste┼¢cie, anty-polakami jeste┼¢cie
+Dobranoc
+Co jest kurwa pedale? Co chcia┼ée┼¢ powiedzie─ç?
+No. Dobra, na razie, wypierdalam
+Kurwa, szkoda by┼éo 9 spraw karnych, szko┼éa by┼éo kurwa ujawnia─ç afery pods┼éuchowej
+G┼éupia polska, g┼éupie polaczki kurwa, was do Auschwitz tylko zaprowadzi─ç kurwa, piecyki w┼é─àczy─ç
+Szkoda kurwa by┼éo na was cokolwiek wy g┼éupie chuje wy
+
+Language: Polish
+
+Sentiment: Mixed
+
+Key Phrases:
+	─àdowe KURWY tego cz┼éowieka oskar┼╝a┼éy bezpodstawnie
+	kt├│rzy┼¢cie g┼éupie kurwy g┼éosowa┼éy
+	kurwa banda imbecyli kt├│ra g┼éosowa┼éa
+	jak moje gdzie postawi┼éem moj─à rodzin─Ö
+	Kukiz├│w popierdole┼äc├│w g┼éosowali
+	kt├│rzy te kurewstwo PiSowskie wybrali
+	ludzie takie zaanga┼╝owanie spo┼éeczne
+	kurwa g┼éupie spo┼éecze┼ästwo
+	jeste┼¢cie band─à narodowych kurw├│w
+	szkoda strz─Öpi─ç ryja naprawd─Ö Niech
+	┼╗yd├│w w dup─Ö jebanych kurwa
+	kt├│rzy┼¢cie g┼éosowali
+	A┼╝ wasz kukle kurwa b─Öd─à
+	kt├│rzy┼¢cie wspomagali mnie
+	tysi─Öcy g┼éos├│w
+	kurwa ujawnia─ç afery pods┼éuchowej
+	tego cz┼éowieka wprowadzi─ç
+	┼¢cie takie g┼éupie
+	powtarzam s─àdowe KURWY
+	kurw├│w karakan├│w
+	g┼éupie polaczki kurwa
+	wy g┼éupie chuje
+	kt├│rym media kurwa
+	ten ma┼éy karakan
+	y w stanie powiedzie─ç
+	wyrok├│w uniewinniaj─àcych
+	70 tysi─Öcy os├│b
+	jeste┼¢cie chuj warci
+	chuj warci jeste┼¢cie
+	Wynik wyborczy KWW Stonogi
+	jest czym┼¢ wartym tego
+	jebany Kaczy┼äski ┼¢mie─ç
+	kurwa odbiera┼éy smak
+	Wy┼é─àcz ten telefon
+	powt├│rz─Ö jeszcze raz
+	Je┼¢li tyle dla
+	PiS rucha┼é w dup─Ö
+	tym antyludzkim pa┼ästwie
+	kurwa polskie frajery ┼¢mia┼é
+	Przez tak─à kurw─Ö Polsk─Ö
+	Auschwitz tylko zaprowadzi─ç kurwa
+	Co chcia┼ée┼¢ powiedzie─ç
+	jeste┼¢cie prymitywami
+	anty-polakami jeste┼¢cie
+	G┼éupia polska
+	PiS kurwa dyma┼é tak
+	latach uniewinnia┼éy
+	garstka Polak├│w
+	tym pa┼ästwie
+	┼╝y┼é kurwa tak
+	pi┼║dzie kurwa
+	chuj z wami
+	A wam kochani
+	piecyki w┼é─àczy─ç
+	kurwa chuje nic
+	tacy kurwa debile
+	Dobry wiecz├│r
+	jaka┼¢ pora┼╝ka
+	ju┼╝ bilet kupiony
+	pierdolone karty kredytowe
+	karta z debetem
+	szkoda kurwa gada─ç
+	mnie s┼éycha─ç
+	kurwa idioci Narodowi
+	Wypierdol─Ö jeszcze dzisiaj
+	┼éo zrobi─ç nic
+	Zbigniewa Stonog─Ö zbezczeszczono
+	wy┼é─àcz─Ö
+	dyma┼éa
+	kurwy Petru
+	─Ödzia┼éy
+	PiS niech
+	nieudacznik├│w
+	mo┼╝e jeba─ç
+	B─Öd─Ö
+	┼éa┼¢nie
+	szko┼éa
+	tylko znaczy┼éo
+	wyrucha┼éa
+	─Öd─à wam
+	Powiedzie─ç wam
+	kurwa Polska
+	i dla
+	B─Ödzie
+	┼éo kurwa
+	kurwa nieporozumienie
+	Ta kurwa
+	kurwa Polacy
+	kurwa pedale
+	wypierdalam Kurwa
+	b├│lu
+	S┼éuchajcie
+	jak tylko
+	mnie sta─ç
+	polscy idioci
+	PiS Platforma
+	┼╝ycie prywatne
+	Sumli┼äskie
+	telewizje republiki
+	dzi─Ökuj─Ö
+	Polsce nadaje
+	ryj wreszcie
+	szlag trafi
+	9 spraw karnych
+	jest dramat
+	Co┼¢
+	rucha─ç
+	─Ö jeba─ç
+	─Ö popsu
+	┼¢l─Ö
+	tych
+	PiSu
+	jakie┼¢
+	biznes
+	wszystko
+	powinno
+	parlamentu
+	zniszczy
+	Kanie
+	Rachonie
+	┼╝ycia
+	mam
+	Korwina
+	kraju
+	zmieni
+	trzeba
+	zarabia─ç
+	Rozumiecie
+	tej
+	kurwie
+	majestat
+	godno┼¢─ç
+	korporacji
+	Dobranoc
+	No.
+	razie
+	cokolwiek
+
+Entities:
+	wiecz├│r (DateTime)
+	KWW Stonogi (Organization)
+	imbecyli (PersonType)
+	karakan├│w (PersonType)
+	PiSu (Organization)
+	ludzie (PersonType)
+	70 (Quantity)
+	80 (Quantity)
+	PiS (Organization)
+	PiS (Organization)
+	kukle (PersonType)
+	kurwa (PersonType)
+	pa┼ästwie (Location)
+	Zbigniewa Stonog─Ö (Person)
+	ten (Quantity)
+	cz┼éowiek (PersonType)
+	118 (Quantity)
+	cz┼éowieka (PersonType)
+	po latach (DateTime)
+	cz┼éowieka (PersonType)
+	PiS (Organization)
+	PiS (Organization)
+	Platforma (Organization)
+	ten (Quantity)
+	Kaczy┼äski (Person)
+	Sumli┼äskie (Person)
+	Kanie (Person)
+	Rachonie (Person)
+	idioci (PersonType)
+	polscy (Location)
+	idioci (PersonType)
+	dzisiaj (DateTime)
+	bilet (Product)
+	Polski (Location)
+	polskie (Location)
+	frajery (PersonType)
+	Korwina (Person)
+	Stonog─Ö (Person)
+	Petru (Person)
+	┼╗yd├│w (PersonType)
+	Kukiz├│w popierdole┼äc├│w (PersonType)
+	Polska (Location)
+	Polsk─Ö (Location)
+	kraju (Location)
+	kurw├│w (PersonType)
+	nieudacznik├│w (PersonType)
+	kochani (PersonType)
+	Polak├│w (PersonType)
+	Polak├│w (PersonType)
+	70 (Quantity)
+	80 (Quantity)
+	ten (Quantity)
+	telefon (Product)
+	Polsce (Location)
+	prymitywami (PersonType)
+	karty kredytowe (Product)
+	Robota (Skill)
+	karta (Product)
+	Polacy (PersonType)
+	ryja (Product)
+	PiS (Organization)
+	anty-polakami (PersonType)
+	Dobranoc (Location)
+	pedale (Product)
+	9 (Quantity)
+	polska (Location)
+	polaczki (PersonType)
+	Auschwitz (Location)
